@@ -33,7 +33,7 @@ logger.info("Starting inference script...")
 # Authenticate with Hugging Face (uses environment variable)
 
 from huggingface_hub import login
-# login(token="token_id")
+
 
 import os, json, math, re, logging
 from dataclasses import dataclass
