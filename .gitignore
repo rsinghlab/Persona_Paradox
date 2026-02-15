@@ -20,9 +20,13 @@ runs/
 wandb/
 *.out
 *.err
+*.log
+
+output_*.log
 
 # Virtual environments
 Person_env*/
+Persona_env2*/
 env/
 venv/
 .venv/
