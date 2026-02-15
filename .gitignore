@@ -1,0 +1,64 @@
+# Data directories
+data/
+datasets/
+*.data
+*.csv
+*.json
+*.jsonl
+*.parquet
+*.pkl
+*.h5
+*.hdf5
+
+# Output directories
+outputs/
+scripts/
+results/
+logs/
+checkpoints/
+runs/
+wandb/
+*.out
+*.err
+
+# Virtual environments
+Person_env*/
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# Model files (if you download models locally)
+models/
+*.bin
+*.pt
+*.pth
+*.safetensors
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
